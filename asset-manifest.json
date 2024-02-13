@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/test-task-car/static/css/main.7acaea2f.css",
-    "main.js": "/test-task-car/static/js/main.cd3c61ec.js",
+    "main.css": "/test-task-car/static/css/main.a6ad2879.css",
+    "main.js": "/test-task-car/static/js/main.3514105b.js",
+    "static/media/18tdieu-helios317.jpg": "/test-task-car/static/media/18tdieu-helios317.87d7a26961b2696ffa80.jpg",
+    "static/media/car.png": "/test-task-car/static/media/car.a5564337f5e8d113d78c.png",
     "index.html": "/test-task-car/index.html",
-    "main.7acaea2f.css.map": "/test-task-car/static/css/main.7acaea2f.css.map",
-    "main.cd3c61ec.js.map": "/test-task-car/static/js/main.cd3c61ec.js.map"
+    "main.a6ad2879.css.map": "/test-task-car/static/css/main.a6ad2879.css.map",
+    "main.3514105b.js.map": "/test-task-car/static/js/main.3514105b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.cd3c61ec.js"
+    "static/css/main.a6ad2879.css",
+    "static/js/main.3514105b.js"
   ]
 }
