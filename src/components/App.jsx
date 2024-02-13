@@ -1,16 +1,18 @@
+import { Route, Routes } from 'react-router';
+import Layout from './Layout/Layout';
+import Home from '../pages/Home';
+import Catalog from '../pages/Catalog';
+import Favorites from '../pages/Favorites';
+import './Form/selectorStyle/selectStyle.scss';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      Hi
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="catalog" element={<Catalog />} />
+        <Route path="favorites" element={<Favorites />} />
+      </Route>
+    </Routes>
   );
 };
