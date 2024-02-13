@@ -56,5 +56,6 @@ export const Text = styled.p`
 `;
 
 export const TitleWhy = styled.h2`
+  margin-left: 10px;
   margin-bottom: 20px;
 `;
