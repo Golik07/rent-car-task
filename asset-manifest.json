@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/test-task-car/static/css/main.a6ad2879.css",
-    "main.js": "/test-task-car/static/js/main.b75cf7a2.js",
-    "static/media/18tdieu-helios317.jpg": "/test-task-car/static/media/18tdieu-helios317.87d7a26961b2696ffa80.jpg",
-    "static/media/car.png": "/test-task-car/static/media/car.a5564337f5e8d113d78c.png",
-    "index.html": "/test-task-car/index.html",
-    "main.a6ad2879.css.map": "/test-task-car/static/css/main.a6ad2879.css.map",
-    "main.b75cf7a2.js.map": "/test-task-car/static/js/main.b75cf7a2.js.map"
+    "main.css": "/rent-car-task/static/css/main.a6ad2879.css",
+    "main.js": "/rent-car-task/static/js/main.ae63d229.js",
+    "static/media/18tdieu-helios317.jpg": "/rent-car-task/static/media/18tdieu-helios317.87d7a26961b2696ffa80.jpg",
+    "static/media/car.png": "/rent-car-task/static/media/car.a5564337f5e8d113d78c.png",
+    "index.html": "/rent-car-task/index.html",
+    "main.a6ad2879.css.map": "/rent-car-task/static/css/main.a6ad2879.css.map",
+    "main.ae63d229.js.map": "/rent-car-task/static/js/main.ae63d229.js.map"
   },
   "entrypoints": [
     "static/css/main.a6ad2879.css",
-    "static/js/main.b75cf7a2.js"
+    "static/js/main.ae63d229.js"
   ]
 }
