@@ -2,7 +2,7 @@
 
 ## Live page:
 
-[**RentCar**](https://github.com/Golik07/rent-car-task/)
+[**RentCar**](https://golik07.github.io/rent-car-task/)
 
 ## Technologies used:
 
