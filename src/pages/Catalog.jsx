@@ -20,6 +20,12 @@ const Catalog = () => {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
+    for (let i = 1; i >= 10; i += 1) {
+      console.log('I did it');
+    }
+  }, []);
+
+  useEffect(() => {
     if (page === 1) {
       dispatch(clearCatalog());
       dispatch(clearFilter());
