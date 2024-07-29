@@ -27,16 +27,16 @@ const Catalog = () => {
     dispatch(fetchAllCars({ page, limit: 12 }));
   }, [dispatch, page]);
 
-  const LoadMoreclick = useCallback(() => {
+  const LoadMoreСlick = useCallback(() => {
     setPage(prevState => prevState + 1);
   }, []);
 
   return (
     <section>
-      <Form></Form>
+      <Form />
       {filtered.length > 0 && <ImageGallery />}
       {quantity.length < 40 && filtered.length >= 12 && !isLoading && (
-        <Button click={LoadMoreclick} />
+        <Button click={LoadMoreСlick} />
       )}
       {isLoading && (
         <ContainerLoader>
@@ -45,8 +45,6 @@ const Catalog = () => {
             height="80"
             width="80"
             ariaLabel="hourglass-loading"
-            wrapperStyle={{}}
-            wrapperClass=""
             colors={['#306cce', '#72a1ed']}
           />
         </ContainerLoader>

@@ -21,6 +21,7 @@ const Form = () => {
   const createPrices = prices();
   const dispatch = useDispatch();
   const makeOptions = makes.map(make => ({ value: make, label: make }));
+
   const priceOptions = createPrices.map(price => ({
     value: price,
     label: price,
@@ -42,16 +43,18 @@ const Form = () => {
 
     const min_mileage = Number(car_min_mileage.value);
     const max_mileage = Number(car_max_mileage.value);
+
     const all_price = price.value === 'all' ? '' : Number(price.value);
     const all_cars =
       brand.value.toLowerCase() === 'all' ? '' : brand.value.toLowerCase();
 
     if (min_mileage < 0 || max_mileage < 0) {
-      return console.log('Sorry');
+      return alert('Sorry');
     }
-    if (min_mileage > max_mileage) {
-      return alert('sorry');
-    }
+
+    // if (min_mileage > max_mileage) {
+    //   return alert('Sorry');
+    // }
 
     const filter = {
       carBrand: all_cars,
